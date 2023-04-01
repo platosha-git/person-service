@@ -10,10 +10,10 @@ import (
 	"person/common"
 	"person/db"
 	"person/person"
+	"time"
 	userHttp "person/person/delivery/http"
 	userPostgres "person/person/repository/postgres"
 	userUceCase "person/person/usecase"
-	"time"
 )
 
 type App struct {
