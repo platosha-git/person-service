@@ -12,7 +12,8 @@ func init() {
 		"port=5432 " +
 		"user=postgres " +
 		"password=testperson " +
-		"dbname=person"
+		"dbname=person " +
+		"TimeZone=Europe/Moscow"
 		
 	var err error
 	db, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
